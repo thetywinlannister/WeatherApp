@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HowsTheSky</string>
+    <string name="img_desc">WeatherImage</string>
+    <string name="textfield_hint">Enter City</string>
+    <string name="current_weather_title">Current Weather</string>
+    <string name="recent_cities_title">Recent Cities</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
