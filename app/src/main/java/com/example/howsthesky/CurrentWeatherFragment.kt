@@ -28,7 +28,7 @@ class CurrentWeatherFragment : Fragment() {
             goToCity.text = "Go to searched cities"
             cityEditText.setText("Hyderabad")
         }
-        activity?.title = "Check Weather"
+//        activity?.title = "Check Weather"
         binding.goToCity.setOnClickListener(
             Navigation.createNavigateOnClickListener(R.id.action_currentWeatherFragment_to_recentCitiesFragment)
         )

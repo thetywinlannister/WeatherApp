@@ -18,7 +18,7 @@ class RecentCitiesFragment : Fragment() {
         val binding: FragmentRecentCitiesBinding = DataBindingUtil.inflate(
             inflater, R.layout.fragment_recent_cities, container, false
         )
-        activity?.title = "Recent Cities"
+//        activity?.title = "Recent Cities"
         binding.goToWeather.text = "Go To City"
         binding.goToWeather.setOnClickListener(
             Navigation.createNavigateOnClickListener(R.id.action_recentCitiesFragment_to_currentWeatherFragment)
